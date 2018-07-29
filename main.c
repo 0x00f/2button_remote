@@ -237,7 +237,7 @@ void ir_frame_nec(uint8_t a, uint8_t d)
 //******************************************************************************
 // send 'on' command
 //******************************************************************************
-lg_on(void)
+void lg_on(void)
 {
     ir_frame_nec( LG_ADDR, LG_ON );
     ir_frame_nec_end( 1 );
